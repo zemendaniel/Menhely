@@ -3,7 +3,6 @@ import functions, os
 app = Flask(__name__)
 
 animal_data = functions.get_the_data('static/animals')
-print(animal_data)
 
 @app.route('/')
 def index():
